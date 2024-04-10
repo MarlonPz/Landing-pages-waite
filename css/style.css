@@ -1,0 +1,399 @@
+:root{
+    --color-azul-oscuro: #283451;
+    --color-azul-claro:#5B6F95;
+    --color-carne:#D2C5BA;
+    --font1:"Poppins", sans-serif;
+
+    --padding-container: 20px 0;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: url("../css/img/Grupo\ 61.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    max-width: 1200px;
+    width: 85%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.nav__picture{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-container);
+}
+.nav__links{
+    display: flex;
+    gap: 2.5em;
+    font-family: var(--font1);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.nav__link{
+    text-decoration: none;
+    color: var(--color-azul-claro);
+}
+.hero__texts{
+    margin-bottom: 2em;
+    max-width: 1650px;
+}
+.hero__title{
+    width: 20%;
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: var(--color-azul-oscuro);
+}
+.hero__paragraph{
+    width: 35%;
+    color: var(--color-azul-claro);
+    font-family: var(--font1);
+    margin-top: 2.5em;
+}
+.finance{
+    color: var(--color-azul-oscuro);
+    line-height: 2;
+}
+.paragraph{
+    text-align: right;
+    font-family: var(--font1);
+    font-size: 0.8rem;
+    color: var(--color-azul-oscuro);
+    margin-bottom: 2em;
+}
+.paragraph__icon{
+    vertical-align: middle;
+    padding: 0 0.8em;
+}
+/*meet*/
+.meet{
+    background-color: var(--color-azul-oscuro);
+}
+.meet__picture{
+    padding: 80px 0;
+    display: flex;
+}
+.meet__partner{
+    width: 100%;
+    height: 50%;
+    display: block;
+    max-width: 400px;
+}
+.meet__texts{
+    display: flex;
+    gap: 5em;
+    width: 600px;
+}
+.meet__title{
+    font-family: var(--font1);
+    font-size: 3rem;
+    color: var(--color-carne);
+    margin-left: 2em;
+    padding: 1em 0;
+}
+.meet__paragraph{
+    color: #FFFFFF;
+    font-family: var(--font1);
+    font-size: .8rem;
+    line-height: 1.5;
+    margin-top: 4.5em;
+}
+.meet__btns{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    font-family: var(--font1);
+    margin-left: 10em;
+}
+.meet__btn{
+    border-radius: 33px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0.9em 2em;
+    text-align: center;
+    background: #5B6F95 0% 0% no-repeat padding-box;
+}
+.meet__info{
+    color: var(--color-azul-oscuro);
+    background: linear-gradient(to bottom, var(--color-azul-oscuro) 75%,#fff 75%);
+}
+.info__container{
+    display: flex;
+    justify-content: space-around;
+}
+.info__picture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 20px #00000029;
+    border-radius: 20px;
+    width: 260px;
+    height: 180px;
+    margin-top: 8em;
+    background-color:#F3EFE9;
+}
+.info__icon{
+    margin: .8em 0;
+    width: 55px;
+}
+.info__text{
+    font-family: var(--font1);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.info__paragraph{
+    font-family: var(--font1);
+    font-size: .8rem;
+    text-align: center;
+}
+.info__picture--modif{
+    width: 300px;
+    height: 210px;
+}
+/*how*/
+
+.how__container{
+    display: flex;
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 4.5em;
+}
+.paragraph_texts{
+    display: flex;
+    flex-direction: column;;
+    gap: 1.5em;
+    margin-left: 4em;
+    color: var(--color-azul-claro);
+}
+.how__text{
+    color: var(--color-azul-oscuro);
+    width: 390px;
+    font-size: 2rem;
+    font-family: var(--font1);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.how__paragraph{
+    font-family: var(--font1);
+    font-size: .8rem;
+}
+.how__paragraph--modif{
+    font-size: 1.2rem;
+}
+
+/*areas*/
+.areas{
+    background-color: var(--color-azul-oscuro);
+}
+.areas__text{
+    color: #fff;
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 3em;
+    margin-bottom: 2.5em;
+}
+.areas__info{
+    display: flex;
+    justify-content: space-between;
+}
+.areas__article{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: .8em;
+    box-shadow: 5px 5px 20px #00000029;
+    background: #F3EFE9 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    width: 280px;
+    height: 400px;
+    margin-bottom: 5em;
+}
+.areas_texts{
+    color: var(--color-azul-oscuro);
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+}
+.areas__paragraph{
+    color: var(--color-azul-claro);
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-left: 2.5em;
+}
+.areas__paragraph--modif{
+    font-weight: 300;
+    font-size: .8rem;
+}
+/*Strategic*/
+.strategic__container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3.5em;
+}
+.picture__hands{
+    display: block;
+    height: 400px;
+    box-shadow:  #00000029;
+    margin-top: 3.5em;
+}
+.strategic__texts{
+    position: relative;
+    right: 8em;
+    background: #F3EFE9 0% 0% no-repeat padding-box;
+    box-shadow: 5px 5px 20px #00000029;
+    border-radius: 20px;
+    width: 550px;
+    height: 500px;
+    max-width: 1200px;
+    z-index: -1;
+}
+.strategic__textos{
+    margin-left: 3.5em;
+    margin-top: 3.5em;
+    
+}
+.strategic__text{
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--color-azul-oscuro);
+    margin-bottom: 1.5em;
+}
+.strategic__paragraph{
+    font-family: var(--font1);
+    font-size: .8rem;
+    color: var(--color-azul-oscuro);
+    margin-top: 3em;
+}
+.strategic__lests{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.strategic__btn{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12em;
+}
+.btn{
+    border-radius: 33px;
+    background: #5B6F95 0% 0% no-repeat padding-box;
+    padding: .5em;
+    font-family: var(--font1);
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    width: 280px;
+}
+.strategic__paragraph{
+    font-family: var(--font1);
+    font-size: .9rem;
+}
+/*leave*/
+.leave{
+    background-color: #F3EFE9;;
+}
+.leave__inputs{
+    display: flex;
+    align-items: baseline;
+}
+.leave__texts{
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: var(--color-azul-oscuro);
+    margin-left: 2.5em;
+    margin-top: 2em;
+    margin-bottom: 5.5em;
+}
+.leave__contac{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+.leave__input{
+    background: #FFFFFF 0% 0% no-repeat padding-box; 
+    border: 3px solid #CDCDCD;
+    border-radius: 41px;
+    font-family: var(--font1);
+    width: 20em;
+    padding: .5em 1em;
+    margin-left: 12em;
+}
+.leave__input--modific{
+    border-radius: 10px;
+    margin-left: 0;
+    resize: none;
+}
+.leave__input--cta{
+    background: #5B6F95 0% 0% no-repeat padding-box;
+    font-family: var(--font1);
+    text-transform: uppercase;
+    border: none;
+    width: 100px;
+    padding: .8em;
+    color: #fff;
+    margin-left: 0;
+}
+.leave__textarea{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    margin: 0 1em;
+    height: 200px;
+}
+/*footer*/
+.footer__picture{
+    display: flex;
+    gap: 5em;
+    margin-top: 3.5em;
+    margin-bottom: 6.5em;
+}
+.picture__img{
+    display: block;
+    width: 250px;
+    object-fit: contain;
+    margin-bottom: 10em;
+}
+.footer__text{
+    font-family: var(--font1);
+    font-weight: 700;
+    color: var(--color-azul-oscuro);
+}
+.footer__paragraph{
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-azul-claro);
+    margin-top: 1.5em;
+}
+.copyrigth{
+    display: flex;
+    gap: .5em;
+    margin-bottom: 6em;
+    font-family: var(--font1);
+}
+.copyrigh__paragraph{
+    color: var(--color-azul-claro);
+}
+.copyrigh__paragraph:first-of-type{
+    margin-right: auto;
+}
+.copyrigh__paragraph--modific{
+    color: var(--color-azul-oscuro);
+}
